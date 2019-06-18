@@ -19,3 +19,12 @@ def assign_rooms(speaker)
    end
    room_assignments
 end
+
+def printer(attendees, room)
+  badges.each do |badge|
+    puts "#{badge}"
+  end
+  room_assignments.each do |room|
+    puts "room"
+  end
+end
